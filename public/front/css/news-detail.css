@@ -1,0 +1,171 @@
+.megaphone img{
+    width: 60px ;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.latest{
+    margin-top: 10px;
+}
+
+/* CARD */
+
+
+.buku-img{
+    width: 120px;
+    height: 120px;
+    margin-TOP: 5px;
+    margin-left: -10PX;
+}
+
+
+.kartu{
+    padding: 20px;
+    
+}
+
+.inf{
+    margin-bottom: 30px;
+}
+
+.filea{
+    margin-top: -10px;
+}
+.filea a{
+    color: black !important;
+}
+
+.gbbr{
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.tombol{
+    font-size: 16px !important;
+	border-radius: 10px;
+    border: 0;
+    line-height: 20px !important;
+    width: 100px !important;
+    height: 30px !important; 
+    background: #262626 !important;
+}
+
+.tombol:hover{
+    background: #333333 !important;  
+}
+
+.tubuh h4{
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.tubuh{
+    text-align: justify;
+}
+
+.tubuh p{
+    font-size: 14px;
+}
+
+.tubuh h5{
+    font-size: 14px;
+}
+
+@media (max-width: 768px){
+    .tubuh{
+        text-align: justify;
+        margin-top: 30px;
+    }
+    .tubuh h4{
+        text-align: center;
+    }
+    
+
+    .tombol{
+        font-size: 15px !important;
+        border-radius: 10px;
+        border: 0;
+        line-height: 1.2 !important;
+        width: 100px !important;
+        height: 30px !important; 
+        background: #262626 !important;
+    }
+}
+
+
+@media (min-width: 992px){
+
+    .card{
+        
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    
+}
+
+
+
+
+/* END OF CARD */
+
+@media (max-width: 576px){
+    .latest{
+        text-align: center;
+        margin-top: -60px;
+        margin-left: -20px;
+    }
+    .newslist{
+        padding: 10px;
+    }
+    .megaphone{
+        width: 100%;
+        height: 100%;
+    }
+    .latest h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .latest h6{
+        margin-left: -80px;
+    }
+}
+
+@media (max-width: 450px){
+    .sm{
+        max-width: 100% !important;
+        text-align: justify !important;
+      }
+
+      .latest{
+          margin-left: 50px !important;
+      }
+
+}
+
+@media (max-width: 330px){
+    .sm{
+        max-width: 100% !important;
+        text-align: justify !important;
+      }
+
+      .latest{
+          margin-left: 50px !important;
+          font-size: 100px !important;
+          margin-top: -60px !important;
+      }
+      .latest h1{
+        font-size: 26px !important;
+    }
+    .latest h6{
+        margin-left: 1px !important;
+    }
+
+    .megaphone img{
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+}

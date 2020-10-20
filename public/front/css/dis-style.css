@@ -1,0 +1,125 @@
+.information {
+   
+    padding: 20px;
+}
+
+.inf{
+    margin-top: -20px;
+    padding: 12px;
+}
+
+
+.article-title{
+    font-size: 30px !important;
+}
+
+.date-head{
+    width: 100% !important;
+}
+
+.date-head div:last-child h6{
+    text-align: right;
+}
+
+.card-title {
+    color: #222529;
+    margin-top:0px;
+    font-weight: 600;
+    font-size: 1.65em;
+  }
+
+  .card-title a {
+    color: #000;
+    text-decoration: none !important;
+  }
+  
+  .gbr img{
+      max-width: 400px;
+      max-height: 400px;
+      
+  }
+
+.information h5{
+    font-size: 15px;
+}
+
+.information p{
+    font-size: 15px;
+}
+
+.thumb-head{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.thumb-head img{
+    object-fit: cover !important;
+}
+
+.gbbr{
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.jumbotron-event{
+    padding: 5px !important;
+}
+
+.tombol{
+    text-transform: uppercase;
+    font-size: 13px;
+	border-radius: 10px;
+	background: #32a8cf;
+    border: 0;
+    width: 105px !important;
+   
+}
+
+.grey{
+    background-color:#f6f7fc !important;
+  }
+
+.tumbul{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 105px;
+    height: 30px;
+    
+}
+
+.author{
+    font-size: 20px !important;
+    font-weight:bold ;
+}
+
+.komen{
+    margin-left: 10px !important;
+}
+
+.kom{
+    margin-left: -31px !important;
+}
+
+
+
+
+
+@media (min-width: 992px){
+    .tombol{
+        text-transform: uppercase;
+        font-size: 13px;
+        border-radius: 10px;
+        background: #32a8cf;
+        border: 0;
+        width: 10% !important;
+       
+    }
+
+  
+}
+
+@media (max-width: 768px){
+    .gr{
+        margin-left: -10px !important;
+    }
+}

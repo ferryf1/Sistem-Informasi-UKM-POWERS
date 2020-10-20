@@ -1,0 +1,81 @@
+
+.footer-bg{
+    background: #262626 !important;
+
+}
+
+.taca h3{
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px !important;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.icon{
+    margin-left: 0px;
+}
+.icon1 img{
+    width: 30px;
+    height: auto;
+    margin-right: 20px;
+}
+.icon2 img{
+    margin-top: -5px;
+    width: 39px;
+    height: auto;
+}
+.icon3 img{
+     width: 15px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.icon4 img{
+    width: 29px;
+   height: auto;
+   margin-right: 10px;
+}
+.icon5 img{
+    width: 25px;
+   height: auto;
+   margin-right: 15px;
+}
+
+.gsbwh{
+    margin-top: 18px;
+}
+
+.bwh{
+    margin-bottom: 100px;
+}
+
+.desk h5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer-head img{
+    margin-bottom: 62px !important;
+    margin-top: 62px !important;
+}
+
+.bwh{
+    
+}
+
+.gskr{
+    margin-left: -40px;
+}
+.gskr1{
+    margin-left: -35px;
+}
+
+.ftr{
+    margin-top: 100px !important;
+}

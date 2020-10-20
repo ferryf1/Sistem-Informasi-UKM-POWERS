@@ -1,0 +1,167 @@
+.kertas{
+    margin-bottom: 10%;
+    margin-right: 10%;
+}
+
+.card{
+    max-width: 100% !important ;
+    margin-left: 70px ;
+    
+}
+
+.margin-tombol{
+    margin-bottom: 30px;
+    margin-left: 70px ;
+       
+}
+.tbl{
+    text-transform: uppercase;
+    font-size: 14px;
+	border-radius: 10px;
+	background: #262626 !important;
+    border: 0;
+    width: 30%;
+}
+
+.tbl:hover{
+    background: #333333 !important;  
+}
+.card-title{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.card-text{
+    font-size: 13px;
+}
+
+.inner{
+    overflow: hidden;
+    max-width: 300px;
+    max-height: 180px;
+    
+}
+
+.inner img{
+    transition : all 1.5s ease;
+   
+    margin-top: 1rem;
+}
+
+.inner-pwr img{
+    width: 150px;
+    height: 150px;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+.tulisan{
+    margin-top: -0.5rem;    
+}
+
+.tulisan h6{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.tulisan .wrote{
+    margin-top: -1rem;
+    
+}
+.tulisan p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.tombol{
+    text-transform: uppercase;
+    font-size: 13px;
+	border-radius: 10px;
+    border: 0;
+    width: 30%; 
+    background: #262626 !important;
+    margin-top: -10px;
+}
+
+.tombol:hover{
+    background: #333333 !important;  
+}
+
+
+@media (min-width: 992px){
+
+    
+
+    .tbl{
+        text-transform: uppercase;
+        font-size: 16px;
+        border-radius: 10px;
+        background: #262626 !important;
+        border: 0;
+        width: 20%;
+    }
+
+    .kertas{
+        margin-bottom: 10%;
+        margin-right: 10%;
+        
+    }
+    
+    .card{
+        max-width: 100% ;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .inner{
+        overflow: hidden;
+    }
+    
+    .inner img{
+        transition : all 1.5s ease;
+    }
+    
+    .inner:hover img{
+        transform: scale(1.5);
+    }
+    
+    .tulisan{
+        margin-top: -0.5rem;
+        
+    }
+    .tulisan .wrote{
+        margin-top: -1rem;
+        
+    }
+    .tulisan p{
+        font-size: 0.9rem;
+    }
+    .tombol{
+        text-transform: uppercase;
+        font-size: 13px;
+        border-radius: 10px;
+        border: 0;
+        width: 30%;
+        background: #262626 !important;
+    
+    }
+
+    
+}
+
+@media (max-width: 500px){
+.sm{
+    max-width: 100% !important;
+    text-align: justify !important;
+  }
+
+  .card{
+    width: 90% !important;
+    margin-left: 20px !important;
+  }
+  .tombol{
+    width: 100px !important;
+    height: 25px !important;
+}
+
+}

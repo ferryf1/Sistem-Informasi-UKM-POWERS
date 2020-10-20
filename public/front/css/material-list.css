@@ -1,0 +1,93 @@
+
+.buku-img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+.bukus-img{
+    width: 105px;
+    height: 105px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kartu{
+    padding: 20px;
+}
+
+.tbl{
+    margin-top: 1rem !important;
+}
+.tombol{
+    
+    text-transform: uppercase;
+    font-size: 18px !important;
+	border-radius: 10px;
+    border: 0;
+    line-height: 90px !important;
+    width: 100px !important;
+    height: 100px !important; 
+    background: #262626 !important;
+}
+
+.tombol:hover{
+    background: #333333 !important;  
+}
+
+.tubuh h4{
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.tubuh{
+    text-align: justify;
+}
+
+.tubuh p{
+    font-size: 13px;
+}
+
+.tubuh h5{
+    font-size: 15px;
+}
+
+@media (max-width: 768px){
+    .tubuh{
+        text-align: justify;
+        margin-top: 10px;
+    }
+    .tubuh h4{
+        text-align: center;
+    }
+    .tbl{
+        text-align: justify !important;
+    }
+
+    .tombol{
+        text-transform: uppercase;
+        font-size: 15px !important;
+        border-radius: 10px;
+        border: 0;
+        line-height: 1.2 !important;
+        width: 100px !important;
+        height: 30px !important; 
+        background: #262626 !important;
+    }
+}
+
+
+@media (min-width: 992px){
+
+    .card{
+        
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+   
+    
+}
+
+

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.thumb-head{
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.thumb-head img{
+    object-fit: cover !important;
+    height: 100% !important;
+    width: 100%;
+}
+
+.ukuran{
+    width: 100%;
+    height: 10% !important;
+}
+
+h1{
+    font-size: 2rem;
+    color: #555;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.leader img{
+    margin-top: -50px;
+}
+
+.leader i{
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.leader p{
+    font-weight: 500;
+}
+
+.leader .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #b7b795;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+.ig{
+    font-size: 20px !important;
+}
+
+
+.leader .card:hover{
+    background: #262626 !important;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+}
+
+.leader .card:hover h3, .leader .card:hover i{
+    color: #fff;
+}
+
+.card{
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
+.tulis{
+    font-size: 15px;
+    letter-spacing: .2em;
+    text-transform: uppercase; 
+}
+.card-body img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.gsr{
+    
+}
+
+.information{
+    padding: 0;
+}
+
+@media (max-width: 992px){
+    .information{
+        padding: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+
+	.card{
+		width: 90% !important;
+		margin-left: 20px !important;
+  }
+}

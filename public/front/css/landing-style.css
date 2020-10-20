@@ -1,0 +1,577 @@
+/* HEADER */
+.site-blocks-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position: center center; 
+}
+.site-blocks-cover.overlay {
+    position: relative; }
+    .site-blocks-cover.overlay:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+      right: 0;
+      top: 0;
+      background: rgba(0, 0, 0, 0.4); }
+  .site-blocks-cover .player {
+    position: absolute;
+    bottom: -250px;
+    width: 100%; }
+  .site-blocks-cover, .site-blocks-cover > .container > .row {
+    min-height: 600px;
+    height: calc(100vh); }
+  .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover > .container > .row {
+    min-height: 400px;
+    height: calc(20vh); }
+  .site-blocks-cover h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+    font-weight: 900; }
+    @media (max-width: 991.98px) {
+      .site-blocks-cover h1 {
+        font-size: 2rem; } }
+  .site-blocks-cover p {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300; }
+  .site-blocks-cover .desc {
+    font-size: 1.4rem;
+    font-weight: 300; }
+    .site-blocks-cover .desc a {
+      color: rgba(255, 255, 255, 0.5);
+      border-bottom: dotted 1px #fff; }
+      .site-blocks-cover .desc a:hover {
+        color: #fff; }
+  .site-blocks-cover .intro-text {
+    font-size: 16px;
+    line-height: 1.5; }
+  @media (max-width: 991.98px) {
+    .site-blocks-cover .display-1 {
+      font-size: 3rem; } }
+
+.headerbg{
+    background-image: url("../../gambar/cover.jpg");
+    background-size: cover;
+  }
+
+         
+.site-section-heading {
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    font-size: 2.5rem; 
+}
+
+
+@media (min-width: 768px) {
+    .site-section-heading {
+        font-size: 3rem; 
+    } 
+}
+
+/* ABOUT-US*/
+.about{
+    margin-top: 40px;
+    padding: 15px;  
+}
+
+
+.tulisan h2{
+    text-align: center;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.tulisan p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify !important;
+}
+
+.tbl{
+    text-align: center;
+}
+
+.why-join{
+    margin-top: 100px;
+    
+}
+
+.join-powers{
+    margin-top: 50px;
+}
+
+.join-powers img{
+  width: 140px;
+  height: 140px;
+}
+
+.join-powers p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  margin-top: -20px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  padding: 45px;
+}
+
+.join h2{
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.tombol{
+  text-transform: uppercase;
+  font-size: 13px;
+  border-radius: 10px;
+  background: #262626 !important;
+  border: 0;
+  width: 50%;
+  
+}
+.tombol:hover{
+  background: #333333 !important;  
+}
+
+.kertas{
+  margin-bottom: 10%;
+  margin-right: 10%;
+}
+
+.card{
+  max-width: 100% ;
+  margin-left: 70px ;
+}
+
+.card-t{
+  margin-left: -10px;
+}
+
+.margin-tombol{
+  margin-bottom: 30px;
+  margin-left: 70px ;
+     
+}
+.tbl{
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 10px;
+  background: #32a8cf;
+  border: 0;
+  width: 30%;
+}
+.card-title{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-text{
+  font-size: 13px;
+}
+
+.inner{
+  overflow: hidden;
+  object-position: center;
+  max-width: 350px ;
+  max-height: 200px;
+}
+
+.inner img{
+  transition : all 1.5s ease;
+  
+}
+
+.inner:hover img{
+  transform: scale(1.5);
+}
+
+.tulisana{
+  margin-top: -0.5rem;
+  
+}
+.tulisana .wrote{
+  margin-top: -1rem;
+  
+}
+.tulisana p{
+  font-size: 0.9rem;
+}
+
+/* GALLERY */
+.gallery-block{
+	padding-bottom:60px;
+	padding-top:60px;
+}
+.gallery-block .heading h2{
+	margin-bottom: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+} 
+
+.gallery-block.cardsgallery h6{
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.gallery-block.cards-gallery .card{
+	transition: 0.4s easy;
+}
+
+.gallery-block.cards-gallery .card img{
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.15); 
+}
+
+.gallery-block.cards-gallery .card-body{
+	text-align: center;
+}
+
+.gallery-block.cards-gallery .card-body p{
+	font-size: 15px;
+}
+
+.gallery-block.cards-gallery a{
+	color: #212529;
+}
+
+.gallery-block.cards-gallery a:hover {
+	text-decoration: none;
+}
+
+.gallery-block.cards-gallery .card{
+	margin-bottom: 30px;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+.innera{
+	overflow: hidden;
+	object-position: center;
+	max-width: 400px ;
+	max-height: 200px;
+  }
+
+@media (min-width: 576px) {
+
+	.gallery-block .transform-on-hover:hover {
+		transform: translateY(-10px) scale(1.02);
+		box-shadow: 0px 10px 10px rgba(0,0,0,0.15) !important;
+		transition: 0.3s;
+	}
+}
+/* END OF GALLERY */
+
+
+
+/* END OF ABOUT-US*/
+
+/* TESTIMONI */
+.testimoni{
+  padding-left: 70px;
+  padding-right: 100px;
+  padding-top: 30px;
+  text-align: center;
+ 
+}
+
+.gambar-moni img{
+  margin-bottom: 10px;
+  margin-left: 50px;
+  max-width: 250px;
+  max-height: 330px;
+ 
+}
+
+.tulisan-moni{
+  margin-top: 50px;
+}
+.tulisan-moni p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 40px;
+}
+
+.tulisan-moni h4{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  margin-left: 40px;
+  color: #F22727;
+}
+
+.testimoni h5{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 40px;
+  color: #000000;
+}
+
+.owl-dots{
+  text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  outline: none; 
+}
+.owl-dot{
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  opacity: 0.8;
+  margin: 50px 5px 0;
+}
+
+.owl-dot.active{
+  color: #ff5257 !important;
+}
+
+.gsr{
+  margin-right: 50px;
+  text-align: center;
+}
+/* END OF TESTIMONI */
+
+/* Our Agenda */
+.cardd{
+  max-width: 100% ;
+  margin-left: 70px ;
+  border: solid 5px #262626 !important;;
+}
+.ktgr p{
+  font-size: 14px;
+}
+
+
+
+@media (min-width: 992px){
+  .gsr{
+    margin-right: 20px;
+  }
+  .cardd{
+    max-width: 100% ;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+    .about{
+        margin-top: 100px;  
+        padding: 0; 
+    }
+    .tbl{
+        text-align: left;
+    }
+
+    .tulisan h2{
+        text-align: left;
+        font-family: Kanit;
+        font-style: normal;
+        
+    }
+    
+    .tulisan p{
+        font-family: Roboto;
+        font-style: normal;
+        text-align: left;
+       
+    }
+
+    .about-img{
+        margin-top: -40px;
+    }
+
+    .tbl{
+      text-transform: uppercase;
+      font-size: 16px;
+      border-radius: 10px;
+      background: #32a8cf;
+      border: 0;
+      width: 20%;
+  }
+
+  .kertas{
+    margin-bottom: 10%;
+    margin-right: 10%;
+    
+}
+
+.card{
+    max-width: 100% ;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card-t{
+  margin-left: 0;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition : all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+.tulisana{
+  margin-top: -0.5rem;
+  
+}
+.tulisana .wrote{
+  margin-top: -1rem;
+  
+}
+.tulisana p{
+  font-size: 0.9rem;
+}
+
+/* TESTIMONI */
+.grey{
+  background-color: #f6f7fc !important;
+}
+.testimoni{
+  padding-left: 70px;
+  padding-right: 100px;
+  padding-top: 30px;
+  width: 1100px;
+  height: 410px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.gambar-moni img{
+  margin-top: 30px;
+  margin-left: 50px;
+  max-width: 200px;
+  max-height: 400px;
+ 
+}
+
+.tulisan-moni{
+  margin-top: 100px;
+  
+}
+.tulisan-moni p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 40px;
+}
+
+.tulisan-moni h4{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  margin-left: 40px;
+  color: #F22727;
+}
+
+.testimoni h5{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 40px;
+  color: #000000;
+}
+
+/* END OF TESTIMONI */
+        
+}
+
+@media (max-width: 576px) {
+  .ttl{
+    text-align: justify;
+  }
+}
+
+@media (max-width: 500px) {
+
+	.card{
+		width: 90% !important;
+		margin-left: 30px !important;
+  }
+  .cardd{
+    width: 80% !important;
+    margin-left: 35px !important;
+  }
+  
+  .card-t{
+    width: 100% !important;
+    margin-left: -5px !important;
+  }
+  .gambar-moni{
+    margin-left: -30px !important;
+  }
+
+  .about{
+    padding: 20px;
+  
+  }
+
+  .agd{
+    margin-left: -20px !important;
+  }
+  .gsr{
+    margin-top: -10px !important;
+    margin-left: 20px !important;
+  }
+  .sm{
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+  .tombol{
+    width: 100px !important;
+    height: 25px !important;
+}
+ 
+}
+
+@media (max-width: 300px) {
+  .testimoni{
+    width: 100% !important;
+  }
+
+  .tulisan-moni{
+    margin-left: -50px !important;
+    width: 200px !important;
+    text-align: center;
+  }
+}
+
+
+
+
+
